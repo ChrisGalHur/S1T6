@@ -12,9 +12,7 @@ public class Main2 {
 		D’aquesta manera has comprovat que se li pot passar qualsevol tipus de paràmetre i en qualsevol ordre.*/
 		
 		Persona yoMismo = new Persona("Christian", "Gálvez", 35);
-		GenericMethods.genericMethod(yoMismo.getNom());
-		GenericMethods.genericMethod(yoMismo.getCognom());
-		GenericMethods.genericMethod(yoMismo.getEdad());
+		GenericMethods.genericMethod(yoMismo.getNom(), yoMismo.getCognom(), yoMismo.getEdad());
 		
 	}
 
