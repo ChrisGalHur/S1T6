@@ -8,11 +8,11 @@ public class Main1 {
 		juntament amb els mètodes per a emmagatzemar i extreure aquests objectes i un constructor per a inicialitzar els tres.
 		Comprova que els arguments es poden posar en qualsevol posició en la crida al constructor.*/
 		
-		NoGenericMethods primer = new NoGenericMethods("Juanito", "Jorgito", "Jaimito");
-		NoGenericMethods segon = new NoGenericMethods("Jaimito", "Juanito", "Jorgito");
+		Nebots primer = new Nebots("Juanito", "Jorgito", "Jaimito");
+		Nebots segon = new Nebots("Jaimito", "Juanito", "Jorgito");
+		Nebots tercer = new Nebots("Juanito","Jaimito", "Jorgito");
 		
-		System.out.println(primer.getNom1() + primer.getNom2() + primer.getNom3());
-		System.out.println(segon.getNom1() + segon.getNom2() + segon.getNom3());
+		NoGenericMethods.imprimeix(primer, segon, tercer);
 		
 		
 	}

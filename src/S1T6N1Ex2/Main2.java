@@ -11,8 +11,11 @@ public class Main2 {
 		Exemple: un objecte de la classe Persona, un String i un tipus primitiu.
 		D’aquesta manera has comprovat que se li pot passar qualsevol tipus de paràmetre i en qualsevol ordre.*/
 		
+		String paraula = "Hey";
+		double num = 1987;
 		Persona yoMismo = new Persona("Christian", "Gálvez", 35);
-		GenericMethods.genericMethod(yoMismo.getNom(), yoMismo.getCognom(), yoMismo.getEdad());
+		GenericMethods.genericMethod(yoMismo, paraula, num);
+		GenericMethods.genericMethod(num, yoMismo, paraula);
 		
 	}
 

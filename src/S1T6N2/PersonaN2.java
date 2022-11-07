@@ -38,6 +38,11 @@ public class PersonaN2 {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+
+	@Override
+	public String toString() {
+		return "PersonaN2 [nom=" + nom + ", cognom=" + cognom + ", edad=" + edad + "]";
+	}
 	
 	
 }
